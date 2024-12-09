@@ -1,0 +1,30 @@
+{
+    "Weblocators":{
+        "loginPage":{
+            "userName": "#username",
+            "password": "#password",
+            "SignIn": "Sign in"
+        },
+        "WebApplicationPage":{
+            "WebApplicationHeading" : "xpath=//h1[text()='Web Application']",
+            "ToDoItems": "xpath=//h2[text()='To Do']//following::div[1]/div/h3",
+            "Featuretag_ImplementUserAuthentication": "xpath=//h3[text()='Implement user authentication']/parent::div/div/span[text()='Feature']/following-sibling::span",
+            "Bugtag_FixNavigationBug": "xpath=//h3[text()='Fix navigation bug']/parent::div/div/span",
+            "InProgressItems": "xpath=//h2[text()='In Progress']//following::div[1]/div/h3",
+            "Designtag_DesignSystemUpdates": "xpath=//h3[text()='Design system updates']/parent::div/div/span",
+            "link_mobileApplication": "Mobile Application"
+        },
+        "MobileApplicationPage":{
+            "MobileApplicationHeading" : "xpath=//h1[text()='Mobile Application']",
+            "ToDoItems": "xpath=//h2[text()='To Do']//following::div[1]/div/h3",
+            "Featuretag_PushNotificationSystem": "xpath=//h3[text()='Push notification system']/parent::div/div/span",
+            "Bugtag_FixNavigationBug": "xpath=//h3[text()='Fix navigation bug']/parent::div/div/span",
+            "InProgressItems": "xpath=//h2[text()='In Progress']//following::div[1]/div/h3",
+            "Featuretag_OfflineMode": "xpath=//h3[text()='Offline mode']/parent::div/div/span/following-sibling::span",
+            "link_mobileApplication": "Mobile Application",
+            "DoneItems": "xpath=//h2[text()='Done']//following::div[1]/div/h3",
+            "DesignTag_AppIconDesign": "xpath=//h3[text()='App icon design']/parent::div/div/span"
+        }
+
+    }
+}
